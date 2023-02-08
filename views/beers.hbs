@@ -1,0 +1,10 @@
+    <ul id="beers">
+        {{#each beers}}
+        <a href="/beers/beer-{{this.id}}">
+        <li>
+            {{> beerpartial}}
+            </div>
+        </li>
+        </a>
+        {{/each}}
+    </ul>
